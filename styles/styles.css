@@ -12,7 +12,11 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
+  font-weight: normal;
   background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .list {
@@ -21,6 +25,7 @@ body {
 
 .link {
   text-decoration: none;
+  color: inherit;
 }
 
 .visually-hidden {
@@ -40,7 +45,6 @@ body {
 
 .header-logo {
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -53,17 +57,12 @@ body {
 
 .header-link {
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
 }
 
 .header-email,
 .header-tel {
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
 }
@@ -108,12 +107,8 @@ body {
 /* -------------------- Benefits styles --------------------*/
 
 .benefits-item-subtitle {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-text-color);
 }
 .benefits-item-text {
   font-size: 14px;
@@ -125,11 +120,9 @@ body {
 /* -------------------- Work styles --------------------*/
 
 .work-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 }
 
 /* -------------------- Team styles --------------------*/
@@ -138,11 +131,9 @@ body {
   background: var(--section-bg-color);
 }
 .team-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 }
 
 .team-item-subtitle {
@@ -150,7 +141,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 }
 .team-item-text {
   font-size: 16px;
@@ -165,8 +155,6 @@ body {
 }
 .footer-logo {
   font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -176,7 +164,7 @@ body {
   color: var(--primary-white-logo-color);
 }
 address {
-  font-style: inherit;
+  font-style: normal;
 }
 .footer-address {
   font-weight: 400;
